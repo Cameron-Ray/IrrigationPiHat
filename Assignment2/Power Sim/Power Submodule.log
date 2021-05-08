@@ -1,0 +1,64 @@
+Circuit: * C:\Users\cdude\University of Cape Town\EEE3088F - General\Assignment 2\Power Sim\Power Submodule.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+Gmin = 1.6455e-006
+Gmin = 1.76685e-007
+Gmin = 1.89714e-008
+Gmin = 2.03704e-009
+Gmin = 2.18725e-010
+Gmin = 2.34854e-011
+Gmin = 2.52173e-012
+Gmin = 2.70769e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Ignoring empty pin current: Ix(u1:9)
+Ignoring empty pin current: Ix(u1:12)
+Ignoring empty pin current: Ix(u1:15)
+Ignoring empty pin current: Ix(u1:16)
+Ignoring empty pin current: Ix(u1:23)
+Ignoring empty pin current: Ix(u1:25)
+Ignoring empty pin current: Ix(u1:27)
+Ignoring empty pin current: Ix(u1:29)
+Ignoring empty pin current: Ix(u1:31)
+Ignoring empty pin current: Ix(u1:33)
+Ignoring empty pin current: Ix(u1:35)
+Ignoring empty pin current: Ix(u1:9)
+Ignoring empty pin current: Ix(u1:12)
+Ignoring empty pin current: Ix(u1:15)
+Ignoring empty pin current: Ix(u1:16)
+Ignoring empty pin current: Ix(u1:23)
+Ignoring empty pin current: Ix(u1:25)
+Ignoring empty pin current: Ix(u1:27)
+Ignoring empty pin current: Ix(u1:29)
+Ignoring empty pin current: Ix(u1:31)
+Ignoring empty pin current: Ix(u1:33)
+Ignoring empty pin current: Ix(u1:35)
+Heightened Def Con from 3.63526e-005 to 3.63526e-005
+
+Date: Sat May 08 01:33:30 2021
+Total elapsed time: 41.725 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 893172
+traniter = 892642
+tranpoints = 232421
+accept = 169008
+rejected = 63414
+matrix size = 160
+fillins = 30
+solver = Normal
+Thread vector: 12.8/10.1[4] 11.2/6.9[4] 2.5/14.2[1] 0.3/2.6[1]  2592/500
+Matrix Compiler1: 6.73 KB object code size  4.8/1.7/[0.6]
+Matrix Compiler2: 10.45 KB object code size  2.1/2.5/[0.7]
+
