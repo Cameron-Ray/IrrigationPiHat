@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\cdude\University of Cape Town\EEE3088F - General\CircuitsV0.1\LedSubmodule\piHAT .sch</source>
+    <date>13/05/2021 9:21:08 PM</date>
+    <tool>Eeschema (5.1.10)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>piHAT .sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U11">
+      <value>OPAMP</value>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="OPAMP" description="OPAmp symbol for simulation only"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607357CD</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>OPAMP</value>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="OPAMP" description="OPAmp symbol for simulation only"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607357D3</tstamp>
+    </comp>
+    <comp ref="U13">
+      <value>OPAMP</value>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="OPAMP" description="OPAmp symbol for simulation only"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607357D9</tstamp>
+    </comp>
+    <comp ref="RV6">
+      <value>R_POT</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607357DF</tstamp>
+    </comp>
+    <comp ref="RV7">
+      <value>R_POT</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607357E6</tstamp>
+    </comp>
+    <comp ref="RV8">
+      <value>R_POT</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607357ED</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>Red LED</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6073585E</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>Orange LED</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6073586D</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>Green LED</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6073587C</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Moisture Sensor 2 Voltage </value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606E979F</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>220</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60735857</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>220</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60735850</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>220</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60735849</tstamp>
+    </comp>
+    <comp ref="U18">
+      <value>AND Gate</value>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <libsource lib="74xGxx" part="74LVC1G08" description="Single AND Gate, Low-Voltage CMOS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608F0C5D</tstamp>
+    </comp>
+    <comp ref="U16">
+      <value>NOT Gate</value>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <libsource lib="74xGxx" part="74AHC1G04" description="Single NOT Gate, Low-Voltage CMOS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608F0C63</tstamp>
+    </comp>
+    <comp ref="U14">
+      <value>OPAMP</value>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="OPAMP" description="OPAmp symbol for simulation only"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608F0C6D</tstamp>
+    </comp>
+    <comp ref="U15">
+      <value>OPAMP</value>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="OPAMP" description="OPAmp symbol for simulation only"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608F0C73</tstamp>
+    </comp>
+    <comp ref="RV9">
+      <value>R_POT</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608F0C79</tstamp>
+    </comp>
+    <comp ref="RV10">
+      <value>R_POT</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608F0C81</tstamp>
+    </comp>
+    <comp ref="U17">
+      <value>NOT Gate</value>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <libsource lib="74xGxx" part="74AHC1G04" description="Single NOT Gate, Low-Voltage CMOS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608F0CB5</tstamp>
+    </comp>
+    <comp ref="U19">
+      <value>AND Gate</value>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <libsource lib="74xGxx" part="74LVC1G08" description="Single AND Gate, Low-Voltage CMOS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608F0CBB</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>Switch</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>http://pdf.datasheetcatalog.com/datasheets/70/494502_DS.pdf</datasheet>
+      <libsource lib="Analog_Switch" part="DG308AxY" description="Quad SPST Analog Switches, normally OFF, 60Ohm Ron, SOIC-16"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608F0CC1</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>AND Gate</value>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <libsource lib="74xGxx" part="74LVC1G08" description="Single AND Gate, Low-Voltage CMOS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6079EEE8</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>NOT Gate</value>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <libsource lib="74xGxx" part="74AHC1G04" description="Single NOT Gate, Low-Voltage CMOS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60798ED3</tstamp>
+    </comp>
+    <comp ref="RV5">
+      <value>R_POT</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>607702C2</tstamp>
+    </comp>
+    <comp ref="RV4">
+      <value>R_POT</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6076CF84</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>OPAMP</value>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="OPAMP" description="OPAmp symbol for simulation only"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6076BC15</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>OPAMP</value>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="OPAMP" description="OPAmp symbol for simulation only"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6076AA3E</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>NOT Gate</value>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <libsource lib="74xGxx" part="74AHC1G04" description="Single NOT Gate, Low-Voltage CMOS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6073C56E</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>AND Gate</value>
+      <datasheet>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</datasheet>
+      <libsource lib="74xGxx" part="74LVC1G08" description="Single AND Gate, Low-Voltage CMOS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60757280</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>OPAMP</value>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="OPAMP" description="OPAmp symbol for simulation only"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606D9908</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>220</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606FC0C1</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>220</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606FCF6C</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Moisture Sensor 1 Voltage</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606E4C04</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>Green LED</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60703056</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>Orange LED</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60701B4F</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>Red LED</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606FD616</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>220</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606F9937</tstamp>
+    </comp>
+    <comp ref="RV3">
+      <value>R_POT</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606EF514</tstamp>
+    </comp>
+    <comp ref="RV2">
+      <value>R_POT</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606EEC69</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>R_POT</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_POT" description="Potentiometer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606DEDD8</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>OPAMP</value>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="OPAMP" description="OPAmp symbol for simulation only"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606D8270</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>OPAMP</value>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="OPAMP" description="OPAmp symbol for simulation only"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>606D7300</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2N2219</value>
+      <footprint>Package_TO_SOT_THT:TO-39-3</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N2219" description="800mA Ic, 50V Vce, NPN Transistor, TO-39"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608D2AAA</tstamp>
+    </comp>
+    <comp ref="M1">
+      <value>Solenoid Valve 1</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Motor" part="Motor_DC" description="DC Motor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608D4BAA</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>DIODE</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">V</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608EC8B3</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>R_Small_US</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609D6116</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>2N2219</value>
+      <footprint>Package_TO_SOT_THT:TO-39-3</footprint>
+      <datasheet>http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N2219" description="800mA Ic, 50V Vce, NPN Transistor, TO-39"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609EC887</tstamp>
+    </comp>
+    <comp ref="M2">
+      <value>Solenoid Valve 1</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Motor" part="Motor_DC" description="DC Motor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609EC88D</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>DIODE</value>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">V</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>609EC897</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>R_Small_US</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A374AC</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Raspberry_Pi_2_3</value>
+      <datasheet>https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf</datasheet>
+      <libsource lib="Connector" part="Raspberry_Pi_2_3" description="expansion header for Raspberry Pi 2 &amp; 3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60AABAEB</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xGxx" part="74LVC1G04">
+      <aliases>
+        <alias>74LVC1GU04</alias>
+        <alias>74AHC1G04</alias>
+        <alias>74AHCT1G04</alias>
+        <alias>74AUC1G04</alias>
+        <alias>74AUP1G04</alias>
+        <alias>74AHC1GU04</alias>
+        <alias>74AHCT1GU04</alias>
+        <alias>74AUC1GU04</alias>
+        <alias>74AUP1GU04</alias>
+      </aliases>
+      <description>Single NOT Gate, Low-Voltage CMOS</description>
+      <docs>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</docs>
+      <footprints>
+        <fp>SOT*</fp>
+        <fp>SG-*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LVC1G04</field>
+      </fields>
+      <pins>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xGxx" part="74LVC1G08">
+      <aliases>
+        <alias>74AHC1G08</alias>
+        <alias>74AHCT1G08</alias>
+        <alias>74AUC1G08</alias>
+        <alias>74AUP1G08</alias>
+      </aliases>
+      <description>Single AND Gate, Low-Voltage CMOS</description>
+      <docs>http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf</docs>
+      <footprints>
+        <fp>SOT*</fp>
+        <fp>SG-*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LVC1G08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Analog_Switch" part="DG308AxY">
+      <aliases>
+        <alias>DG442xY</alias>
+      </aliases>
+      <description>Quad SPST Analog Switches, normally OFF, 60Ohm Ron, SOIC-16</description>
+      <docs>http://pdf.datasheetcatalog.com/datasheets/70/494502_DS.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x9.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DG308AxY</field>
+        <field name="Footprint">Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="input"/>
+        <pin num="9" name="~" type="input"/>
+        <pin num="10" name="~" type="passive"/>
+        <pin num="11" name="~" type="passive"/>
+        <pin num="12" name="NC" type="NotConnected"/>
+        <pin num="13" name="V+" type="power_in"/>
+        <pin num="14" name="~" type="passive"/>
+        <pin num="15" name="~" type="passive"/>
+        <pin num="16" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x01_Male">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Raspberry_Pi_2_3">
+      <description>expansion header for Raspberry Pi 2 &amp; 3</description>
+      <docs>https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf</docs>
+      <footprints>
+        <fp>PinHeader*2x20*P2.54mm*Vertical*</fp>
+        <fp>PinSocket*2x20*P2.54mm*Vertical*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Raspberry_Pi_2_3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="power_in"/>
+        <pin num="2" name="5V" type="power_in"/>
+        <pin num="3" name="SDA/GPIO2" type="BiDi"/>
+        <pin num="4" name="5V" type="power_in"/>
+        <pin num="5" name="SCL/GPIO3" type="BiDi"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="GCLK0/GPIO4" type="BiDi"/>
+        <pin num="8" name="GPIO14/TXD" type="BiDi"/>
+        <pin num="9" name="GND" type="power_in"/>
+        <pin num="10" name="GPIO15/RXD" type="BiDi"/>
+        <pin num="11" name="GPIO17" type="BiDi"/>
+        <pin num="12" name="GPIO18/PWM0" type="BiDi"/>
+        <pin num="13" name="GPIO27" type="BiDi"/>
+        <pin num="14" name="GND" type="power_in"/>
+        <pin num="15" name="GPIO22" type="BiDi"/>
+        <pin num="16" name="GPIO23" type="BiDi"/>
+        <pin num="17" name="3V3" type="power_in"/>
+        <pin num="18" name="GPIO24" type="BiDi"/>
+        <pin num="19" name="MOSI0/GPIO10" type="BiDi"/>
+        <pin num="20" name="GND" type="power_in"/>
+        <pin num="21" name="MISO0/GPIO9" type="BiDi"/>
+        <pin num="22" name="GPIO25" type="BiDi"/>
+        <pin num="23" name="SCLK0/GPIO11" type="BiDi"/>
+        <pin num="24" name="~CE0~/GPIO8" type="BiDi"/>
+        <pin num="25" name="GND" type="power_in"/>
+        <pin num="26" name="~CE1~/GPIO7" type="BiDi"/>
+        <pin num="27" name="ID_SD/GPIO0" type="BiDi"/>
+        <pin num="28" name="ID_SC/GPIO1" type="BiDi"/>
+        <pin num="29" name="GCLK1/GPIO5" type="BiDi"/>
+        <pin num="30" name="GND" type="power_in"/>
+        <pin num="31" name="GCLK2/GPIO6" type="BiDi"/>
+        <pin num="32" name="PWM0/GPIO12" type="BiDi"/>
+        <pin num="33" name="PWM1/GPIO13" type="BiDi"/>
+        <pin num="34" name="GND" type="power_in"/>
+        <pin num="35" name="GPIO19/MISO1" type="BiDi"/>
+        <pin num="36" name="GPIO16" type="BiDi"/>
+        <pin num="37" name="GPIO26" type="BiDi"/>
+        <pin num="38" name="GPIO20/MOSI1" type="BiDi"/>
+        <pin num="39" name="GND" type="power_in"/>
+        <pin num="40" name="GPIO21/SCLK1" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_POT">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small_US">
+      <description>Resistor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Motor" part="Motor_DC">
+      <description>DC Motor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>PinHeader*P2.54mm*</fp>
+        <fp>TerminalBlock*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Motor_DC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Simulation_SPICE" part="DIODE">
+      <description>Diode, anode on pin 1, for simulation only!</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="2N2219">
+      <aliases>
+        <alias>BC140</alias>
+        <alias>BC141</alias>
+      </aliases>
+      <description>800mA Ic, 50V Vce, NPN Transistor, TO-39</description>
+      <docs>http://www.onsemi.com/pub_link/Collateral/2N2219-D.PDF</docs>
+      <footprints>
+        <fp>TO?39*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N2219</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-39-3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pspice" part="OPAMP">
+      <description>OPAmp symbol for simulation only</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">OPAMP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="input"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="~" type="output"/>
+        <pin num="4" name="V+" type="power_in"/>
+        <pin num="5" name="V-" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xGxx">
+      <uri>E:\Program Files\KiCad\share\kicad\library/74xGxx.lib</uri>
+    </library>
+    <library logical="Analog_Switch">
+      <uri>E:\Program Files\KiCad\share\kicad\library/Analog_Switch.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>E:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>E:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Motor">
+      <uri>E:\Program Files\KiCad\share\kicad\library/Motor.lib</uri>
+    </library>
+    <library logical="Simulation_SPICE">
+      <uri>E:\Program Files\KiCad\share\kicad\library/Simulation_SPICE.lib</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>E:\Program Files\KiCad\share\kicad\library/Transistor_BJT.lib</uri>
+    </library>
+    <library logical="pspice">
+      <uri>E:\Program Files\KiCad\share\kicad\library/pspice.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="D3" pin="1"/>
+      <node ref="U7" pin="3"/>
+      <node ref="D2" pin="1"/>
+      <node ref="RV5" pin="3"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U5" pin="5"/>
+      <node ref="RV4" pin="3"/>
+      <node ref="U4" pin="5"/>
+      <node ref="U6" pin="3"/>
+      <node ref="D1" pin="1"/>
+      <node ref="U9" pin="3"/>
+      <node ref="D7" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="RV7" pin="3"/>
+      <node ref="RV6" pin="3"/>
+      <node ref="U13" pin="5"/>
+      <node ref="U11" pin="5"/>
+      <node ref="U12" pin="5"/>
+      <node ref="RV8" pin="3"/>
+      <node ref="U18" pin="3"/>
+      <node ref="U16" pin="3"/>
+      <node ref="RV10" pin="3"/>
+      <node ref="RV9" pin="3"/>
+      <node ref="U14" pin="5"/>
+      <node ref="U15" pin="5"/>
+      <node ref="U8" pin="3"/>
+      <node ref="U17" pin="3"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U1" pin="5"/>
+      <node ref="RV1" pin="3"/>
+      <node ref="RV3" pin="3"/>
+      <node ref="RV2" pin="3"/>
+      <node ref="U19" pin="3"/>
+    </net>
+    <net code="2" name="Net-(RV1-Pad2)">
+      <node ref="RV1" pin="2"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(D4-Pad1)">
+      <node ref="Q1" pin="3"/>
+      <node ref="D4" pin="1"/>
+      <node ref="M1" pin="2"/>
+    </net>
+    <net code="4" name="Net-(RV3-Pad2)">
+      <node ref="U3" pin="2"/>
+      <node ref="RV3" pin="2"/>
+    </net>
+    <net code="5" name="Net-(RV2-Pad2)">
+      <node ref="U2" pin="2"/>
+      <node ref="RV2" pin="2"/>
+    </net>
+    <net code="6" name="Net-(R2-Pad2)">
+      <node ref="U2" pin="3"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="7" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U8" pin="1"/>
+    </net>
+    <net code="8" name="Net-(U6-Pad4)">
+      <node ref="U6" pin="4"/>
+      <node ref="U8" pin="2"/>
+    </net>
+    <net code="9" name="VCC">
+      <node ref="U18" pin="5"/>
+      <node ref="U16" pin="5"/>
+      <node ref="U19" pin="5"/>
+      <node ref="U9" pin="5"/>
+      <node ref="U7" pin="5"/>
+      <node ref="U17" pin="5"/>
+      <node ref="U8" pin="5"/>
+      <node ref="U6" pin="5"/>
+    </net>
+    <net code="10" name="Net-(R3-Pad2)">
+      <node ref="U3" pin="3"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U6" pin="2"/>
+    </net>
+    <net code="11" name="+3V3">
+      <node ref="U5" pin="4"/>
+      <node ref="U14" pin="4"/>
+      <node ref="U12" pin="4"/>
+      <node ref="U13" pin="4"/>
+      <node ref="U15" pin="4"/>
+      <node ref="U11" pin="4"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="12" name="Net-(D1-Pad2)">
+      <node ref="J2" pin="22"/>
+      <node ref="D1" pin="2"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="13" name="Net-(D3-Pad2)">
+      <node ref="J2" pin="13"/>
+      <node ref="R3" pin="1"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="14" name="+12VA">
+      <node ref="M2" pin="1"/>
+      <node ref="D8" pin="2"/>
+      <node ref="M1" pin="1"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="15" name="Net-(J2-Pad7)">
+      <node ref="J2" pin="7"/>
+    </net>
+    <net code="16" name="Net-(D2-Pad2)">
+      <node ref="R2" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="J2" pin="37"/>
+    </net>
+    <net code="17" name="Net-(J2-Pad38)">
+      <node ref="J2" pin="38"/>
+    </net>
+    <net code="18" name="Net-(J2-Pad39)">
+      <node ref="J2" pin="39"/>
+    </net>
+    <net code="19" name="Net-(J2-Pad4)">
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="20" name="Net-(J2-Pad40)">
+      <node ref="J2" pin="40"/>
+    </net>
+    <net code="21" name="Net-(J2-Pad5)">
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="22" name="Net-(J2-Pad6)">
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="23" name="Net-(J2-Pad35)">
+      <node ref="J2" pin="35"/>
+    </net>
+    <net code="24" name="Net-(J2-Pad9)">
+      <node ref="J2" pin="9"/>
+    </net>
+    <net code="25" name="Net-(J2-Pad27)">
+      <node ref="J2" pin="27"/>
+    </net>
+    <net code="26" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="27" name="Net-(J2-Pad20)">
+      <node ref="J2" pin="20"/>
+    </net>
+    <net code="28" name="Net-(J2-Pad21)">
+      <node ref="J2" pin="21"/>
+    </net>
+    <net code="29" name="Net-(J2-Pad23)">
+      <node ref="J2" pin="23"/>
+    </net>
+    <net code="30" name="Net-(J2-Pad24)">
+      <node ref="J2" pin="24"/>
+    </net>
+    <net code="31" name="Net-(J2-Pad25)">
+      <node ref="J2" pin="25"/>
+    </net>
+    <net code="32" name="Net-(J2-Pad26)">
+      <node ref="J2" pin="26"/>
+    </net>
+    <net code="33" name="Net-(J2-Pad28)">
+      <node ref="J2" pin="28"/>
+    </net>
+    <net code="34" name="Net-(J2-Pad29)">
+      <node ref="J2" pin="29"/>
+    </net>
+    <net code="35" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="36" name="Net-(J2-Pad30)">
+      <node ref="J2" pin="30"/>
+    </net>
+    <net code="37" name="Net-(J2-Pad31)">
+      <node ref="J2" pin="31"/>
+    </net>
+    <net code="38" name="Net-(J2-Pad32)">
+      <node ref="J2" pin="32"/>
+    </net>
+    <net code="39" name="Net-(J2-Pad33)">
+      <node ref="J2" pin="33"/>
+    </net>
+    <net code="40" name="Net-(J2-Pad34)">
+      <node ref="J2" pin="34"/>
+    </net>
+    <net code="41" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="J2" pin="8"/>
+    </net>
+    <net code="42" name="Net-(D7-Pad2)">
+      <node ref="R7" pin="1"/>
+      <node ref="J2" pin="36"/>
+      <node ref="D7" pin="2"/>
+    </net>
+    <net code="43" name="Net-(J2-Pad19)">
+      <node ref="J2" pin="19"/>
+    </net>
+    <net code="44" name="Net-(D8-Pad1)">
+      <node ref="Q2" pin="3"/>
+      <node ref="M2" pin="2"/>
+      <node ref="D8" pin="1"/>
+    </net>
+    <net code="45" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="U10" pin="1"/>
+    </net>
+    <net code="46" name="Net-(Q1-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="47" name="Net-(Q2-Pad2)">
+      <node ref="R8" pin="2"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="48" name="Net-(R8-Pad1)">
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="49" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="50" name="Net-(J2-Pad11)">
+      <node ref="J2" pin="11"/>
+    </net>
+    <net code="51" name="Net-(J2-Pad12)">
+      <node ref="J2" pin="12"/>
+    </net>
+    <net code="52" name="Net-(J2-Pad14)">
+      <node ref="J2" pin="14"/>
+    </net>
+    <net code="53" name="Net-(J2-Pad15)">
+      <node ref="J2" pin="15"/>
+    </net>
+    <net code="54" name="Net-(J2-Pad16)">
+      <node ref="J2" pin="16"/>
+    </net>
+    <net code="55" name="Net-(J2-Pad17)">
+      <node ref="J2" pin="17"/>
+    </net>
+    <net code="56" name="Net-(J2-Pad18)">
+      <node ref="J2" pin="18"/>
+    </net>
+    <net code="57" name="Net-(RV4-Pad2)">
+      <node ref="U4" pin="2"/>
+      <node ref="RV4" pin="2"/>
+    </net>
+    <net code="58" name="Net-(D6-Pad2)">
+      <node ref="R6" pin="1"/>
+      <node ref="D6" pin="2"/>
+      <node ref="J2" pin="10"/>
+    </net>
+    <net code="59" name="Net-(R6-Pad2)">
+      <node ref="U12" pin="3"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="60" name="Net-(U10-Pad3)">
+      <node ref="U10" pin="3"/>
+      <node ref="U8" pin="4"/>
+    </net>
+    <net code="61" name="Net-(J3-Pad1)">
+      <node ref="U15" pin="1"/>
+      <node ref="U11" pin="1"/>
+      <node ref="U12" pin="1"/>
+      <node ref="U13" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="U14" pin="1"/>
+    </net>
+    <net code="62" name="Net-(U15-Pad3)">
+      <node ref="U15" pin="3"/>
+      <node ref="U17" pin="2"/>
+    </net>
+    <net code="63" name="Net-(RV9-Pad2)">
+      <node ref="RV9" pin="2"/>
+      <node ref="U14" pin="2"/>
+    </net>
+    <net code="64" name="Net-(RV10-Pad2)">
+      <node ref="U15" pin="2"/>
+      <node ref="RV10" pin="2"/>
+    </net>
+    <net code="65" name="Net-(R5-Pad2)">
+      <node ref="U18" pin="1"/>
+      <node ref="U11" pin="3"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="66" name="Net-(R7-Pad2)">
+      <node ref="U16" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U13" pin="3"/>
+    </net>
+    <net code="67" name="Net-(U16-Pad4)">
+      <node ref="U18" pin="2"/>
+      <node ref="U16" pin="4"/>
+    </net>
+    <net code="68" name="Net-(RV7-Pad2)">
+      <node ref="RV7" pin="2"/>
+      <node ref="U12" pin="2"/>
+    </net>
+    <net code="69" name="Net-(RV8-Pad2)">
+      <node ref="U13" pin="2"/>
+      <node ref="RV8" pin="2"/>
+    </net>
+    <net code="70" name="Net-(RV6-Pad2)">
+      <node ref="RV6" pin="2"/>
+      <node ref="U11" pin="2"/>
+    </net>
+    <net code="71" name="Net-(U5-Pad3)">
+      <node ref="U5" pin="3"/>
+      <node ref="U7" pin="2"/>
+    </net>
+    <net code="72" name="Net-(U7-Pad4)">
+      <node ref="U7" pin="4"/>
+      <node ref="U9" pin="2"/>
+    </net>
+    <net code="73" name="Net-(U10-Pad2)">
+      <node ref="U10" pin="2"/>
+      <node ref="U9" pin="4"/>
+    </net>
+    <net code="74" name="Net-(U4-Pad3)">
+      <node ref="U4" pin="3"/>
+      <node ref="U9" pin="1"/>
+    </net>
+    <net code="75" name="Net-(RV5-Pad2)">
+      <node ref="RV5" pin="2"/>
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="76" name="Net-(J1-Pad1)">
+      <node ref="U3" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U5" pin="1"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="77" name="+5V">
+      <node ref="RV8" pin="1"/>
+      <node ref="RV7" pin="1"/>
+      <node ref="RV3" pin="1"/>
+      <node ref="RV2" pin="1"/>
+      <node ref="RV1" pin="1"/>
+      <node ref="RV5" pin="1"/>
+      <node ref="RV4" pin="1"/>
+      <node ref="RV9" pin="1"/>
+      <node ref="RV6" pin="1"/>
+      <node ref="RV10" pin="1"/>
+    </net>
+    <net code="78" name="Net-(U17-Pad4)">
+      <node ref="U19" pin="2"/>
+      <node ref="U17" pin="4"/>
+    </net>
+    <net code="79" name="Net-(U14-Pad3)">
+      <node ref="U14" pin="3"/>
+      <node ref="U19" pin="1"/>
+    </net>
+    <net code="80" name="Net-(U10-Pad6)">
+      <node ref="U10" pin="6"/>
+      <node ref="U19" pin="4"/>
+    </net>
+    <net code="81" name="Net-(U10-Pad7)">
+      <node ref="U10" pin="7"/>
+      <node ref="U18" pin="4"/>
+    </net>
+    <net code="82" name="Net-(U10-Pad8)">
+      <node ref="U10" pin="8"/>
+    </net>
+  </nets>
+</export>

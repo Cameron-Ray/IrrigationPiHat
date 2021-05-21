@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\cdude\University of Cape Town\EEE3088F - General\CircuitsV0.1\AmplifierSubmodule\Amplifier Submodule.sch</source>
+    <date>13/05/2021 9:18:48 PM</date>
+    <tool>Eeschema (5.1.10)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Amplifier Submodule.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>OPAMP</value>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="OPAMP" description="OPAmp symbol for simulation only"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6087693F</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>3.6K</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60879E9A</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6087D63E</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1K</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60883A85</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Input Signal Voltage 1</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60884CC8</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>OPAMP</value>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="OPAMP" description="OPAmp symbol for simulation only"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6087E4CB</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1K</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608869AD</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1K</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608878E8</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>OPAMP</value>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="OPAMP" description="OPAmp symbol for simulation only"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60888603</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>2.5K</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6088D6E1</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1K</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6089627B</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Amplified Output 1</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6089B49B</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>OPAMP</value>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="OPAMP" description="OPAmp symbol for simulation only"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C1111</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>3.6K</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C1123</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>8</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C113C</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1K</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C115B</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Input Signal Voltage 2</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C1161</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>OPAMP</value>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="OPAMP" description="OPAmp symbol for simulation only"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C1167</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>1K</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C116F</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>1K</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C117B</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>OPAMP</value>
+      <datasheet>~</datasheet>
+      <libsource lib="pspice" part="OPAMP" description="OPAmp symbol for simulation only"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C1185</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>2.5K</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C119F</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>13</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C11AA</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Amplified Output 2</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>608C11BC</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x01_Male">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small_US">
+      <description>Resistor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pspice" part="OPAMP">
+      <description>OPAmp symbol for simulation only</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">OPAMP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="input"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="~" type="output"/>
+        <pin num="4" name="V+" type="power_in"/>
+        <pin num="5" name="V-" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>E:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>E:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="pspice">
+      <uri>E:\Program Files\KiCad\share\kicad\library/pspice.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="U1" pin="5"/>
+      <node ref="U4" pin="5"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U6" pin="5"/>
+      <node ref="U6" pin="1"/>
+      <node ref="U4" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U5" pin="5"/>
+      <node ref="U5" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="2" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="3" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1"/>
+      <node ref="U4" pin="3"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="4" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="R8" pin="1"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="5" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="6" name="+3V3">
+      <node ref="R1" pin="2"/>
+      <node ref="U5" pin="4"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U1" pin="4"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U3" pin="4"/>
+      <node ref="U3" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="U6" pin="4"/>
+      <node ref="U6" pin="2"/>
+      <node ref="R14" pin="2"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="7" name="Net-(J4-Pad1)">
+      <node ref="R12" pin="1"/>
+      <node ref="U6" pin="3"/>
+      <node ref="J4" pin="1"/>
+    </net>
+    <net code="8" name="Net-(R11-Pad2)">
+      <node ref="U5" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="9" name="Net-(J1-Pad1)">
+      <node ref="R2" pin="2"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="10" name="Net-(R3-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="11" name="Net-(R1-Pad1)">
+      <node ref="U1" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="12" name="Net-(R4-Pad1)">
+      <node ref="U2" pin="3"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="13" name="Net-(J2-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="U3" pin="3"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="14" name="Net-(R2-Pad1)">
+      <node ref="R6" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R4" pin="2"/>
+    </net>
+  </nets>
+</export>

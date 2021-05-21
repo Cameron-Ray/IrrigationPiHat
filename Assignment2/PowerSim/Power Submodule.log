@@ -1,4 +1,4 @@
-Circuit: * C:\Users\cdude\University of Cape Town\EEE3088F - General\Assignment 2\Power Sim\Power Submodule.asc
+Circuit: * C:\Users\cdude\University of Cape Town\EEE3088F - General\Assignment2\PowerSim\Power Submodule.asc
 
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
 Starting Gmin stepping
@@ -42,23 +42,25 @@ Ignoring empty pin current: Ix(u1:29)
 Ignoring empty pin current: Ix(u1:31)
 Ignoring empty pin current: Ix(u1:33)
 Ignoring empty pin current: Ix(u1:35)
-Heightened Def Con from 3.63526e-005 to 3.63526e-005
+Heightened Def Con from 3.63521e-005 to 3.63521e-005
+Heightened Def Con from 0.000781893 to 0.000781897
+Heightened Def Con from 0.00197237 to 0.00197237
 
-Date: Sat May 08 01:33:30 2021
-Total elapsed time: 41.725 seconds.
+Date: Thu May 13 15:10:43 2021
+Total elapsed time: 15.820 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 893172
-traniter = 892642
-tranpoints = 232421
-accept = 169008
-rejected = 63414
+totiter = 876114
+traniter = 875584
+tranpoints = 227991
+accept = 165917
+rejected = 62077
 matrix size = 160
 fillins = 30
 solver = Normal
-Thread vector: 12.8/10.1[4] 11.2/6.9[4] 2.5/14.2[1] 0.3/2.6[1]  2592/500
-Matrix Compiler1: 6.73 KB object code size  4.8/1.7/[0.6]
-Matrix Compiler2: 10.45 KB object code size  2.1/2.5/[0.7]
+Thread vector: 13.1/7.6[4] 45.2/6.0[4] 1.5/1.4[1] 0.3/0.7[1]  2592/500
+Matrix Compiler1: 6.73 KB object code size  1.8/1.2/[0.5]
+Matrix Compiler2: 10.45 KB object code size  1.0/2.0/[0.5]
 
