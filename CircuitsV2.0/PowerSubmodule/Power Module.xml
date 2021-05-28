@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Users\cdude\University of Cape Town\EEE3088F - General\CircuitsV1.0\PowerSubmodule\Power Module.sch</source>
-    <date>28/05/2021 1:41:44 AM</date>
+    <source>C:\Users\cdude\University of Cape Town\EEE3088F - General\CircuitsV2.0\PowerSubmodule\Power Module.sch</source>
+    <date>28/05/2021 1:40:41 AM</date>
     <tool>Eeschema (5.1.10)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -19,20 +19,6 @@
     </sheet>
   </design>
   <components>
-    <comp ref="R1">
-      <value>1Meg</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6095F4F1</tstamp>
-    </comp>
-    <comp ref="R2">
-      <value>18.7k</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6096182C</tstamp>
-    </comp>
     <comp ref="Q3">
       <value>BSC082N10LSG</value>
       <footprint>Package_TO_SOT_SMD:TDSON-8-1</footprint>
@@ -54,14 +40,6 @@
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>6098AB1A</tstamp>
-    </comp>
-    <comp ref="Q2">
-      <value>BSC082N10LSG</value>
-      <footprint>Package_TO_SOT_SMD:TDSON-8-1</footprint>
-      <datasheet>http://www.infineon.com/dgdl/Infineon-BSC082N10LS-DS-v01_07-en.pdf?fileId=db3a3043163797a6011647faad240719</datasheet>
-      <libsource lib="Transistor_FET" part="BSC082N10LSG" description="100A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 8.2mOhm Ron, Qg (typ) 78.0nC, PG-TDSON-8"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>6099DD3C</tstamp>
     </comp>
     <comp ref="C6">
       <value>1n</value>
@@ -91,12 +69,41 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>609ED1D6</tstamp>
     </comp>
-    <comp ref="R3">
-      <value>511k</value>
+    <comp ref="R5">
+      <value>75k</value>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>609F2512</tstamp>
+      <tstamp>60A31C8B</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>Si4482DY</value>
+      <footprint>Package_TO_SOT_SMD:TDSON-8-1</footprint>
+      <datasheet>http://www.infineon.com/dgdl/Infineon-BSC082N10LS-DS-v01_07-en.pdf?fileId=db3a3043163797a6011647faad240719</datasheet>
+      <libsource lib="Transistor_FET" part="BSC082N10LSG" description="100A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 8.2mOhm Ron, Qg (typ) 78.0nC, PG-TDSON-8"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A449D3</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.01µ</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A66D26</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>Cpar=100p,Rser=10k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A65B49</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>4.7µ</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60A61336</tstamp>
     </comp>
     <comp ref="R4">
       <value>30.1k</value>
@@ -105,11 +112,28 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>609F5BFB</tstamp>
     </comp>
-    <comp ref="U1">
-      <value>LTC3895</value>
-      <libsource lib="LTC3895PartLib" part="LTC3895" description=""/>
+    <comp ref="R3">
+      <value>511k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>60956139</tstamp>
+      <tstamp>609F2512</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>LTC3895IFE#TRPBF</value>
+      <footprint>SOP50P640X120-39N</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/3895fa.pdf</datasheet>
+      <fields>
+        <field name="Description">Switching Voltage Regulators 150V Low Iq Synchronous Step-Down Controller</field>
+        <field name="Height">1.2</field>
+        <field name="Manufacturer_Name">Linear Technology</field>
+        <field name="Manufacturer_Part_Number">LTC3895IFE#TRPBF</field>
+        <field name="Mouser Part Number">584-LTC3895IFE#TRPBF</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=584-LTC3895IFE%23TRPBF</field>
+      </fields>
+      <libsource lib="LTC3895PartLib" part="LTC3895IFE#TRPBF" description="Switching Voltage Regulators 150V Low Iq Synchronous Step-Down Controller"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60B1932B</tstamp>
     </comp>
     <comp ref="R7">
       <value>511k</value>
@@ -125,41 +149,27 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>60A02EF4</tstamp>
     </comp>
-    <comp ref="R5">
-      <value>75k</value>
+    <comp ref="R2">
+      <value>18.7k</value>
       <datasheet>~</datasheet>
       <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>60A31C8B</tstamp>
+      <tstamp>6096182C</tstamp>
     </comp>
-    <comp ref="C4">
-      <value>4.7µ</value>
+    <comp ref="R1">
+      <value>1Meg</value>
       <datasheet>~</datasheet>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>60A61336</tstamp>
+      <tstamp>6095F4F1</tstamp>
     </comp>
-    <comp ref="C2">
-      <value>Cpar=100p, Rser=10k</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60A65B49</tstamp>
-    </comp>
-    <comp ref="C1">
-      <value>0.01µ</value>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>60A66D26</tstamp>
-    </comp>
-    <comp ref="Q1">
-      <value>Si4482DY</value>
+    <comp ref="Q2">
+      <value>BSC082N10LSG</value>
       <footprint>Package_TO_SOT_SMD:TDSON-8-1</footprint>
       <datasheet>http://www.infineon.com/dgdl/Infineon-BSC082N10LS-DS-v01_07-en.pdf?fileId=db3a3043163797a6011647faad240719</datasheet>
       <libsource lib="Transistor_FET" part="BSC082N10LSG" description="100A Id, 100V Vds, OptiMOS N-Channel Power MOSFET, 8.2mOhm Ron, Qg (typ) 78.0nC, PG-TDSON-8"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>60A449D3</tstamp>
+      <tstamp>6099DD3C</tstamp>
     </comp>
   </components>
   <libparts>
@@ -211,13 +221,61 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="LTC3895PartLib" part="LTC3895">
+    <libpart lib="LTC3895PartLib" part="LTC3895IFE#TRPBF">
+      <description>Switching Voltage Regulators 150V Low Iq Synchronous Step-Down Controller</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/3895fa.pdf</docs>
       <fields>
-        <field name="Reference">U</field>
-        <field name="Value">LTC3895</field>
+        <field name="Reference">IC</field>
+        <field name="Value">LTC3895IFE#TRPBF</field>
+        <field name="Footprint">SOP50P640X120-39N</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/3895fa.pdf</field>
+        <field name="Description">Switching Voltage Regulators 150V Low Iq Synchronous Step-Down Controller</field>
+        <field name="Height">1.2</field>
+        <field name="Manufacturer_Name">Linear Technology</field>
+        <field name="Manufacturer_Part_Number">LTC3895IFE#TRPBF</field>
+        <field name="Mouser Part Number">584-LTC3895IFE#TRPBF</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=584-LTC3895IFE%23TRPBF</field>
       </fields>
       <pins>
-        <pin num="~" name="NDRV" type="input"/>
+        <pin num="1" name="OVLO" type="passive"/>
+        <pin num="2" name="VPRG" type="passive"/>
+        <pin num="3" name="SENSE+" type="passive"/>
+        <pin num="4" name="SENSE-" type="passive"/>
+        <pin num="5" name="SS" type="passive"/>
+        <pin num="6" name="VFB" type="passive"/>
+        <pin num="7" name="ITH" type="passive"/>
+        <pin num="8" name="MODE" type="passive"/>
+        <pin num="9" name="GND_1" type="passive"/>
+        <pin num="10" name="CRUMP_EN" type="passive"/>
+        <pin num="11" name="CLKOUT" type="passive"/>
+        <pin num="12" name="GND_2" type="passive"/>
+        <pin num="13" name="PLLIN" type="passive"/>
+        <pin num="14" name="PGOOD" type="passive"/>
+        <pin num="15" name="GND_3" type="passive"/>
+        <pin num="16" name="NC" type="NotConnected"/>
+        <pin num="17" name="FREQ" type="passive"/>
+        <pin num="18" name="DRVSET" type="passive"/>
+        <pin num="19" name="DRVUV" type="passive"/>
+        <pin num="20" name="TG" type="passive"/>
+        <pin num="21" name="SW" type="passive"/>
+        <pin num="22" name="BOOST" type="passive"/>
+        <pin num="23" name="NO_PIN_1" type="passive"/>
+        <pin num="24" name="BG" type="passive"/>
+        <pin num="25" name="NO_PIN_2" type="passive"/>
+        <pin num="26" name="DRVCC" type="passive"/>
+        <pin num="27" name="NO_PIN_3" type="passive"/>
+        <pin num="28" name="NDRV" type="passive"/>
+        <pin num="29" name="NO_PIN_4" type="passive"/>
+        <pin num="30" name="VIN" type="passive"/>
+        <pin num="31" name="NO_PIN_5" type="passive"/>
+        <pin num="32" name="EXTVCC" type="passive"/>
+        <pin num="33" name="NO_PIN_6" type="passive"/>
+        <pin num="34" name="RUN" type="passive"/>
+        <pin num="35" name="NO_PIN_7" type="passive"/>
+        <pin num="36" name="PHASMD" type="passive"/>
+        <pin num="37" name="ILIM" type="passive"/>
+        <pin num="38" name="INTVCC" type="passive"/>
+        <pin num="39" name="EP" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Transistor_FET" part="CSD17578Q5A">
@@ -357,129 +415,162 @@
       <uri>E:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
     </library>
     <library logical="LTC3895PartLib">
-      <uri>C:\Users\cdude\University of Cape Town\EEE3088F - General\CircuitsV1.0\PowerSubmodule/LTC3895PartLib.lib</uri>
+      <uri>C:\Users\cdude\University of Cape Town\EEE3088F - General\CircuitsV2.0\PowerSubmodule/LTC3895PartLib.lib</uri>
     </library>
     <library logical="Transistor_FET">
       <uri>E:\Program Files\KiCad\share\kicad\library/Transistor_FET.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(Q2-Pad4)">
-      <node ref="U1" pin="~"/>
-      <node ref="Q2" pin="4"/>
-    </net>
-    <net code="2" name="GND">
+    <net code="1" name="GND">
+      <node ref="R5" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="IC1" pin="19"/>
+      <node ref="R2" pin="2"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="IC1" pin="9"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="C1" pin="2"/>
       <node ref="C2" pin="2"/>
       <node ref="C4" pin="1"/>
-      <node ref="U1" pin="~"/>
-      <node ref="U1" pin="~"/>
-      <node ref="U1" pin="~"/>
-      <node ref="C1" pin="2"/>
-      <node ref="Q2" pin="3"/>
-      <node ref="R2" pin="2"/>
-      <node ref="C7" pin="2"/>
-      <node ref="Q2" pin="2"/>
-      <node ref="Q2" pin="1"/>
-      <node ref="C3" pin="1"/>
-      <node ref="U1" pin="~"/>
       <node ref="R4" pin="2"/>
       <node ref="R8" pin="2"/>
-      <node ref="R5" pin="2"/>
+      <node ref="IC1" pin="8"/>
+      <node ref="IC1" pin="13"/>
     </net>
-    <net code="3" name="Net-(R5-Pad1)">
-      <node ref="R5" pin="1"/>
-      <node ref="U1" pin="~"/>
-    </net>
-    <net code="4" name="Net-(C4-Pad2)">
-      <node ref="Q1" pin="5"/>
-      <node ref="U1" pin="~"/>
-      <node ref="C4" pin="2"/>
-    </net>
-    <net code="5" name="Net-(U1-Pad~)">
-      <node ref="U1" pin="~"/>
-    </net>
-    <net code="6" name="Net-(U1-Pad~)">
-      <node ref="U1" pin="~"/>
-    </net>
-    <net code="7" name="Net-(U1-Pad~)">
-      <node ref="U1" pin="~"/>
-    </net>
-    <net code="8" name="Net-(R7-Pad2)">
-      <node ref="U1" pin="~"/>
-      <node ref="R7" pin="2"/>
+    <net code="2" name="Net-(IC1-Pad6)">
       <node ref="R8" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="IC1" pin="6"/>
     </net>
-    <net code="9" name="Net-(C6-Pad2)">
-      <node ref="R6" pin="2"/>
-      <node ref="U1" pin="~"/>
-      <node ref="C6" pin="2"/>
-      <node ref="L1" pin="2"/>
+    <net code="3" name="Net-(IC1-Pad2)">
+      <node ref="IC1" pin="2"/>
     </net>
-    <net code="10" name="Net-(C1-Pad1)">
-      <node ref="U1" pin="~"/>
+    <net code="4" name="Net-(C1-Pad1)">
       <node ref="C1" pin="1"/>
+      <node ref="IC1" pin="5"/>
     </net>
-    <net code="11" name="Net-(C2-Pad1)">
-      <node ref="C2" pin="1"/>
-      <node ref="U1" pin="~"/>
+    <net code="5" name="Net-(IC1-Pad39)">
+      <node ref="IC1" pin="39"/>
     </net>
-    <net code="12" name="Net-(Q1-Pad4)">
-      <node ref="U1" pin="~"/>
-      <node ref="Q1" pin="4"/>
-    </net>
-    <net code="13" name="Net-(C5-Pad1)">
-      <node ref="Q3" pin="1"/>
-      <node ref="C5" pin="1"/>
-      <node ref="Q2" pin="5"/>
-      <node ref="U1" pin="~"/>
-      <node ref="Q3" pin="3"/>
-      <node ref="Q3" pin="2"/>
-      <node ref="L1" pin="1"/>
-    </net>
-    <net code="14" name="Net-(C5-Pad2)">
-      <node ref="C5" pin="2"/>
-      <node ref="U1" pin="~"/>
-    </net>
-    <net code="15" name="Net-(Q3-Pad4)">
-      <node ref="Q3" pin="4"/>
-      <node ref="U1" pin="~"/>
-    </net>
-    <net code="16" name="+12V">
-      <node ref="U1" pin="~"/>
-      <node ref="U1" pin="~"/>
-      <node ref="R7" pin="1"/>
-      <node ref="C7" pin="1"/>
-      <node ref="R6" pin="1"/>
-      <node ref="C6" pin="1"/>
-    </net>
-    <net code="17" name="Net-(R1-Pad2)">
-      <node ref="R2" pin="1"/>
-      <node ref="U1" pin="~"/>
-      <node ref="R1" pin="2"/>
-    </net>
-    <net code="18" name="Net-(C3-Pad2)">
-      <node ref="U1" pin="~"/>
-      <node ref="U1" pin="~"/>
-      <node ref="U1" pin="~"/>
-      <node ref="C3" pin="2"/>
-      <node ref="R3" pin="2"/>
-    </net>
-    <net code="19" name="Net-(R4-Pad1)">
+    <net code="6" name="Net-(IC1-Pad17)">
+      <node ref="IC1" pin="17"/>
       <node ref="R4" pin="1"/>
-      <node ref="U1" pin="~"/>
     </net>
-    <net code="20" name="+24V">
-      <node ref="U1" pin="~"/>
+    <net code="7" name="Net-(IC1-Pad18)">
+      <node ref="IC1" pin="18"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="8" name="Net-(IC1-Pad28)">
+      <node ref="Q1" pin="4"/>
+      <node ref="IC1" pin="28"/>
+    </net>
+    <net code="9" name="Net-(C3-Pad2)">
+      <node ref="IC1" pin="38"/>
+      <node ref="IC1" pin="10"/>
+      <node ref="IC1" pin="36"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="10" name="Net-(IC1-Pad14)">
+      <node ref="R3" pin="1"/>
+      <node ref="IC1" pin="14"/>
+    </net>
+    <net code="11" name="Net-(IC1-Pad20)">
+      <node ref="Q3" pin="4"/>
+      <node ref="IC1" pin="20"/>
+    </net>
+    <net code="12" name="+24V">
       <node ref="Q1" pin="2"/>
-      <node ref="R1" pin="1"/>
+      <node ref="Q1" pin="3"/>
       <node ref="Q3" pin="5"/>
       <node ref="Q1" pin="1"/>
-      <node ref="U1" pin="~"/>
-      <node ref="Q1" pin="3"/>
+      <node ref="IC1" pin="30"/>
+      <node ref="R1" pin="1"/>
+      <node ref="IC1" pin="34"/>
     </net>
-    <net code="21" name="Net-(R3-Pad1)">
-      <node ref="R3" pin="1"/>
-      <node ref="U1" pin="~"/>
+    <net code="13" name="Net-(IC1-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="IC1" pin="1"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="14" name="Net-(C6-Pad1)">
+      <node ref="IC1" pin="3"/>
+      <node ref="C6" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="15" name="Net-(IC1-Pad24)">
+      <node ref="IC1" pin="24"/>
+      <node ref="Q2" pin="4"/>
+    </net>
+    <net code="16" name="Net-(C5-Pad2)">
+      <node ref="IC1" pin="22"/>
+      <node ref="C5" pin="2"/>
+    </net>
+    <net code="17" name="Net-(C5-Pad1)">
+      <node ref="IC1" pin="21"/>
+      <node ref="Q2" pin="5"/>
+      <node ref="C5" pin="1"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="18" name="Net-(IC1-Pad35)">
+      <node ref="IC1" pin="35"/>
+    </net>
+    <net code="19" name="Net-(IC1-Pad33)">
+      <node ref="IC1" pin="33"/>
+    </net>
+    <net code="20" name="Net-(IC1-Pad31)">
+      <node ref="IC1" pin="31"/>
+    </net>
+    <net code="21" name="Net-(IC1-Pad29)">
+      <node ref="IC1" pin="29"/>
+    </net>
+    <net code="22" name="Net-(IC1-Pad27)">
+      <node ref="IC1" pin="27"/>
+    </net>
+    <net code="23" name="Net-(IC1-Pad25)">
+      <node ref="IC1" pin="25"/>
+    </net>
+    <net code="24" name="Net-(IC1-Pad23)">
+      <node ref="IC1" pin="23"/>
+    </net>
+    <net code="25" name="+12V">
+      <node ref="C7" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="IC1" pin="4"/>
+      <node ref="IC1" pin="32"/>
+    </net>
+    <net code="26" name="Net-(C4-Pad2)">
+      <node ref="IC1" pin="26"/>
+      <node ref="C4" pin="2"/>
+      <node ref="Q1" pin="5"/>
+    </net>
+    <net code="27" name="Net-(IC1-Pad37)">
+      <node ref="IC1" pin="37"/>
+    </net>
+    <net code="28" name="Net-(C2-Pad1)">
+      <node ref="IC1" pin="7"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="29" name="Net-(IC1-Pad11)">
+      <node ref="IC1" pin="11"/>
+    </net>
+    <net code="30" name="Net-(IC1-Pad15)">
+      <node ref="IC1" pin="15"/>
+    </net>
+    <net code="31" name="Net-(IC1-Pad12)">
+      <node ref="IC1" pin="12"/>
+    </net>
+    <net code="32" name="Net-(IC1-Pad16)">
+      <node ref="IC1" pin="16"/>
     </net>
   </nets>
 </export>
