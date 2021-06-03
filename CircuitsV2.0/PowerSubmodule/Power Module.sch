@@ -323,23 +323,6 @@ F 3 "" H 4400 6800 50  0001 C CNN
 	1    4400 6800
 	1    0    0    -1  
 $EndComp
-$Comp
-L LTC3895PartLib:LTC3895IFE#TRPBF IC1
-U 1 1 60B1932B
-P 2450 4000
-F 0 "IC1" H 3250 4265 50  0000 C CNN
-F 1 "LTC3895IFE#TRPBF" H 3250 4174 50  0000 C CNN
-F 2 "SOP50P640X120-39N" H 3900 4100 50  0001 L CNN
-F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3895fa.pdf" H 3900 4000 50  0001 L CNN
-F 4 "Switching Voltage Regulators 150V Low Iq Synchronous Step-Down Controller" H 3900 3900 50  0001 L CNN "Description"
-F 5 "1.2" H 3900 3800 50  0001 L CNN "Height"
-F 6 "Linear Technology" H 3900 3700 50  0001 L CNN "Manufacturer_Name"
-F 7 "LTC3895IFE#TRPBF" H 3900 3600 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "584-LTC3895IFE#TRPBF" H 3900 3500 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=584-LTC3895IFE%23TRPBF" H 3900 3400 50  0001 L CNN "Mouser Price/Stock"
-	1    2450 4000
-	1    0    0    -1  
-$EndComp
 NoConn ~ 3250 6300
 Wire Wire Line
 	2100 5600 2450 5600
@@ -729,4 +712,21 @@ Text Notes 7300 7200 0    39   ~ 0
 1
 Text Notes 7400 7250 0    39   ~ 0
 1
+$Comp
+L LTC3895PartLib:LTC3895IFE#TRPBF IC?
+U 1 1 60B986EC
+P 2450 4000
+F 0 "IC?" H 3250 4265 50  0000 C CNN
+F 1 "LTC3895IFE#TRPBF" H 3250 4174 50  0000 C CNN
+F 2 "SOP50P640X120-39N" H 3900 4100 50  0001 L CNN
+F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/3895fa.pdf" H 3900 4000 50  0001 L CNN
+F 4 "Switching Voltage Regulators 150V Low Iq Synchronous Step-Down Controller" H 3900 3900 50  0001 L CNN "Description"
+F 5 "1.2" H 3900 3800 50  0001 L CNN "Height"
+F 6 "Linear Technology" H 3900 3700 50  0001 L CNN "Manufacturer_Name"
+F 7 "LTC3895IFE#TRPBF" H 3900 3600 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "584-LTC3895IFE#TRPBF" H 3900 3500 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=584-LTC3895IFE%23TRPBF" H 3900 3400 50  0001 L CNN "Mouser Price/Stock"
+	1    2450 4000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

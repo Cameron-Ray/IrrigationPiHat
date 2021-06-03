@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name LTC3895PartLib)(type Legacy)(uri ${KIPRJMOD}/LTC3895PartLib.lib)(options "")(descr ""))
+  (lib (name Main-Circuit-rescue)(type Legacy)(uri "${KIPRJMOD}/Main Circuit-rescue.lib")(options "")(descr ""))
+)
