@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:piHAT -cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
@@ -827,7 +826,7 @@ Connection ~ 5950 6600
 Wire Wire Line
 	5950 6600 5950 6500
 $Comp
-L power:+12V #PWR?
+L LED-Submodule-rescue:+12V-power #PWR?
 U 1 1 61A2D586
 P 5950 5900
 F 0 "#PWR?" H 5950 5750 50  0001 C CNN
@@ -880,7 +879,7 @@ Connection ~ 6700 6200
 Wire Wire Line
 	6700 6200 6700 6100
 $Comp
-L power:+12V #PWR?
+L LED-Submodule-rescue:+12V-power #PWR?
 U 1 1 61A49859
 P 6700 5500
 F 0 "#PWR?" H 6700 5350 50  0001 C CNN
@@ -1416,10 +1415,10 @@ Wire Wire Line
 Wire Wire Line
 	12750 5700 12750 5750
 $Comp
-L 74xx:74HC86 U?
+L 74xx:74HC86 U7
 U 5 1 61B495BA
 P 10750 8850
-F 0 "U?" H 10980 8896 50  0000 L CNN
+F 0 "U7" H 10980 8896 50  0000 L CNN
 F 1 "74HC86" H 10980 8805 50  0000 L CNN
 F 2 "" H 10750 8850 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74HC86" H 10750 8850 50  0001 C CNN
@@ -1479,7 +1478,7 @@ Connection ~ 13600 7100
 Wire Wire Line
 	13600 7100 13600 7000
 $Comp
-L power:+12V #PWR?
+L LED-Submodule-rescue:+12V-power #PWR?
 U 1 1 61B495DC
 P 13600 6400
 F 0 "#PWR?" H 13600 6250 50  0001 C CNN
@@ -1532,7 +1531,7 @@ Connection ~ 14350 6700
 Wire Wire Line
 	14350 6700 14350 6600
 $Comp
-L power:+12V #PWR?
+L LED-Submodule-rescue:+12V-power #PWR?
 U 1 1 61B495F9
 P 14350 6000
 F 0 "#PWR?" H 14350 5850 50  0001 C CNN
