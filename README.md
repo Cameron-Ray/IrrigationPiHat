@@ -9,7 +9,7 @@ The PiHAT will allow more advanced users to continuously perform measurements or
 
 ![Example Irrigation PiHAT in operation](readme-res/IrrigationDemo.jpg)
 
-<br>
+---
 
 # Table of Contents
 
@@ -44,6 +44,8 @@ Here's how to get started.
 
 ---
 
-## Contributing
+## Contributing To This Repo
 
 See the full contribution documentation [here](CONTRIBUTING.md).
+
+---

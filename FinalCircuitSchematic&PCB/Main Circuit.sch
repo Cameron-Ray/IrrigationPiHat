@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Main Circuit-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
@@ -1312,12 +1311,6 @@ Wire Wire Line
 	5100 11800 5250 11800
 Wire Wire Line
 	4900 11600 5250 11600
-Wire Wire Line
-	5850 11700 6300 11700
-Wire Wire Line
-	6050 11050 6300 11050
-Wire Wire Line
-	6300 11050 6300 11100
 $Comp
 L 74xx:74HC86 U5
 U 5 1 60C9E876
@@ -1894,12 +1887,6 @@ Wire Wire Line
 	12750 12300 12900 12300
 Wire Wire Line
 	12550 12100 12900 12100
-Wire Wire Line
-	13500 12200 13950 12200
-Wire Wire Line
-	13700 11550 13950 11550
-Wire Wire Line
-	13950 11550 13950 11600
 $Comp
 L 74xx:74HC86 U7
 U 5 1 60C9E9D8
@@ -1937,8 +1924,6 @@ F 3 "" H 11950 14150 50  0001 C CNN
 	1    11950 14150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14150 11900 14300 11900
 Wire Wire Line
 	14300 11900 14300 12300
 Wire Wire Line
@@ -2082,17 +2067,6 @@ F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 12200 13250 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 12300 13350 50  0001 C CNN
 	2    12250 13150
 	1    0    0    -1  
-$EndComp
-$Comp
-L Analog_Switch:DG308AxY U8
-U 1 1 60C9EA52
-P 6300 11400
-F 0 "U8" H 6300 11667 50  0000 C CNN
-F 1 "Switch" H 6300 11576 50  0000 C CNN
-F 2 "Package_SO:QSOP-16_3.9x4.9mm_P0.635mm" H 6300 11300 50  0001 C CNN
-F 3 "http://pdf.datasheetcatalog.com/datasheets/70/494502_DS.pdf" H 6300 11400 50  0001 C CNN
-	1    6300 11400
-	0    -1   -1   0   
 $EndComp
 Wire Wire Line
 	3000 9500 3000 10000
@@ -2919,17 +2893,6 @@ F 3 "http://www.ti.com/lit/ds/symlink/lmv324.pdf" H 3550 15100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Analog_Switch:DG308AxY U9
-U 1 1 60BAE308
-P 13950 11900
-F 0 "U9" H 13950 12167 50  0000 C CNN
-F 1 "Switch" H 13950 12076 50  0000 C CNN
-F 2 "Package_SO:QSOP-16_3.9x4.9mm_P0.635mm" H 13950 11800 50  0001 C CNN
-F 3 "http://pdf.datasheetcatalog.com/datasheets/70/494502_DS.pdf" H 13950 11900 50  0001 C CNN
-	1    13950 11900
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:+5V #PWR0101
 U 1 1 60CEC062
 P 2850 14450
@@ -3097,4 +3060,48 @@ F 3 "~" H 8700 12050 50  0001 C CNN
 	1    8700 12050
 	-1   0    0    -1  
 $EndComp
+$Comp
+L Switch:SW_SPDT SW2
+U 1 1 60CA8509
+P 14100 11900
+F 0 "SW2" H 14100 12185 50  0000 C CNN
+F 1 "SW_SPDT" H 14100 12094 50  0000 C CNN
+F 2 "Button_Switch_SMD:JS102011JCQN" H 14100 11900 50  0001 C CNN
+F 3 "~" H 14100 11900 50  0001 C CNN
+	1    14100 11900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	13500 12200 13800 12200
+Wire Wire Line
+	13800 12200 13800 12000
+Wire Wire Line
+	13800 12000 13900 12000
+Wire Wire Line
+	13900 11800 13800 11800
+Wire Wire Line
+	13800 11800 13800 11550
+Wire Wire Line
+	13800 11550 13700 11550
+$Comp
+L Switch:SW_SPDT SW1
+U 1 1 60DD0185
+P 6300 11400
+F 0 "SW1" H 6300 11685 50  0000 C CNN
+F 1 "SW_SPDT" H 6300 11594 50  0000 C CNN
+F 2 "Button_Switch_SMD:JS102011JCQN" H 6300 11400 50  0001 C CNN
+F 3 "~" H 6300 11400 50  0001 C CNN
+	1    6300 11400
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6050 11050 6050 11300
+Wire Wire Line
+	6050 11300 6100 11300
+Wire Wire Line
+	5850 11700 6050 11700
+Wire Wire Line
+	6050 11700 6050 11500
+Wire Wire Line
+	6050 11500 6100 11500
 $EndSCHEMATC
