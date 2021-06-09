@@ -38,13 +38,11 @@ The PiHAT will allow more advanced users to continuously perform measurements or
 
 ---
 
-<br>
-
 ## Getting Started
 
 Here's how to get started.
 
-<br>
+---
 
 ## Contributing
 
