@@ -51,3 +51,8 @@ Make sure that the power module has been connected properly.
 
 Make sure that the amplification module has been connected properly with both soil moisture sensors. If only a single soil moisture sesnor has been connected, then only a single LED indicator will work.
 
+### Step 3
+
+Familiarise yourself with the front face of the microPiHat PCB below.
+
+![image](https://user-images.githubusercontent.com/83865890/121737262-ed7ca080-caf8-11eb-9a3f-dc7c883aa5a5.png)
