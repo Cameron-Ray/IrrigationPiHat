@@ -39,5 +39,15 @@ If you want to use the output signal that ranges from 0V - 3.3V from the amplifi
 
 ## LED Module
 
+### Required Hardware:
+
+- 1 x microPiHat
+
 ### Step 1
+
+Make sure that the power module has been connected properly.
+
+### Step 2
+
+Make sure that the amplification module has been connected properly for both soil moisture sensors.
 
