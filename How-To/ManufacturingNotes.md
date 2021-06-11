@@ -42,4 +42,4 @@ Leave the default selections and press 'Generate Position File'. This will gener
 
 ### Step 10
 
-Send all of these files to your manufacturer of choice for manufacturing.
+Send all of these files to your PCB manufacturer of choice for manufacturing.
