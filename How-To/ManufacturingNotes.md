@@ -40,3 +40,6 @@ In PCB View, go to Files -> Fabrication Outputs -> Footprint Position Files
 
 Leave the default selections and press 'Generate Position File'. This will generate the footprint position files needed for manufacturing.
 
+### Step 10
+
+Send all of these files to your manufacturer of choice for manufacturing.
