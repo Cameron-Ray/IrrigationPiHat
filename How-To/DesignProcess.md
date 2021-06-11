@@ -105,8 +105,8 @@ In order to set the treshold voltage for the inner bound of the secondary valve 
 
 ### Step 15 (optional)
 
-If you would like to change your valve control voltage to trigger from your secondary control source instead of from your LED source four your first soil moisture sensor, change switch, SW1, from its default position to its secondary position.
+If you would like to change your valve control voltage to trigger from your secondary control source instead of from your LED source for your first soil moisture sensor, change switch, SW1, from its default position to its secondary position.
 
 ### Step 16 (optional)
 
-If you would like to change your valve control voltage to trigger from your secondary control source instead of from your LED source four your ssecond soil moisture sensor, change switch, SW2, from its default position to its secondary position.
+If you would like to change your valve control voltage to trigger from your secondary control source instead of from your LED source for your second soil moisture sensor, change switch, SW2, from its default position to its secondary position.
