@@ -49,5 +49,5 @@ Make sure that the power module has been connected properly.
 
 ### Step 2
 
-Make sure that the amplification module has been connected properly with both soil moisture sensors.
+Make sure that the amplification module has been connected properly with both soil moisture sensors. If only a single soil moisture sesnor has been connected, then only a single LED indicator will work.
 
