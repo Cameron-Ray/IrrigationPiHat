@@ -49,5 +49,5 @@ Make sure that the power module has been connected properly.
 
 ### Step 2
 
-Make sure that the amplification module has been connected properly for both soil moisture sensors.
+Make sure that the amplification module has been connected properly with both soil moisture sensors.
 
