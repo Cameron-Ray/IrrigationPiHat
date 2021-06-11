@@ -4,6 +4,8 @@ Read the sections below for common 'How To...' questions when assembling or usin
 
 ## Power Module
 
+## Amplifier Module
+
 ### Required Hardware:
 
 - 2 x Capacitive Soil Moisture Sensors
@@ -27,7 +29,13 @@ Connect your first capacitive soil moisture sensor to connector J1 on the microP
 
 Connect your second capacitive soil moisture sensor to connector J3 on the microPiHat PCB.
 
-## Amplifier Module
+### Step 5 (optional)
+
+If you want to use the output signal that ranges from 0V - 3.3V from the amplification stage for the first soil moisture sensor, connect to connector J2 on the microPiHat PCB.
+
+### Step 6 (optional)
+
+If you want to use the output signal that ranges from 0V - 3.3V from the amplification stage for the second soil moisture sensor, connect to connector J6 on the microPiHat PCB.
 
 ## LED Module
 
