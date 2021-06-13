@@ -9,7 +9,7 @@ Read the sections below for common 'How To...' questions when assembling or usin
 
 Familiarise yourself with the front face of the microPiHat PCB below.
 
-![image](../FinalCircuitSchematic&PCB/3D_Front.jpg)
+![image](../FinalCircuitSchematic&PCB/PCBScreenshots/3D_Front.jpg)
 
 ### Step 2
 
@@ -37,7 +37,7 @@ Make sure that the power module has been connected properly.
 
 Familiarise yourself with the front face of the microPiHat PCB below.
 
-![image](../FinalCircuitSchematic&PCB/3D_Front.jpg)
+![image](../FinalCircuitSchematic&PCB/PCBScreenshots/3D_Front.jpg)
 
 ### Step 3
 
@@ -76,13 +76,13 @@ Make sure that the amplification module has been connected properly with both so
 
 Familiarise yourself with the front face of the microPiHat PCB below.
 
-![image](../FinalCircuitSchematic&PCB/3D_Front.jpg)
+![image](../FinalCircuitSchematic&PCB/PCBScreenshots/3D_Front.jpg)
 
 ### Step 4
 
 Familiarise yourself with the back face of the microPiHat PCB below.
 
-![image](../FinalCircuitSchematic&PCB/3D_Back.jpg)
+![image](../FinalCircuitSchematic&PCB/PCBScreenshots/3D_Back.jpg)
 
 ### Step 5
 
