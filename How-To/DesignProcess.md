@@ -15,7 +15,7 @@ Familiarise yourself with the front face of the microPiHat PCB below.
 
 Connect the 24V - 48V DC power supply to the male pin connecters marked as J7.
 
-## Step 3 (optional)
+### Step 3 (optional)
 
 To troubleshoot your solenoid valves, check if your power supply connected is not fluctuating too much (although the regulator should rectify this problem) and ensure that your solenoids are functioning by shorting J4 and J2 to simulate a valve open.
 
