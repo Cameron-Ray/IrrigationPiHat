@@ -3,8 +3,26 @@
 Read the sections below for common 'How To...' questions when assembling or using the circuit.
 
 ## Power Module
+***How To Setup The Power Module and connecting components***
+
+### Step 1
+
+Familiarise yourself with the front face of the microPiHat PCB below.
+
+![image](../FinalCircuitSchematic&PCB/3D_Front.jpg)
+
+### Step 2
+
+Connect the 24V - 48V DC power supply to the male pin connecters marked as J7.
+
+## Step 3 (optional)
+
+To troubleshoot your solenoid valves, check if your power supply connected is not fluctuating too much (although the regulator should rectify this problem) and ensure that your solenoids are functioning by shorting J4 and J2 to simulate a valve open.
+
+---
 
 ## Amplifier Module
+***How To Setup The Amplifier Module and connecting components***
 
 ### Required Hardware:
 
@@ -19,7 +37,7 @@ Make sure that the power module has been connected properly.
 
 Familiarise yourself with the front face of the microPiHat PCB below.
 
-![image](https://user-images.githubusercontent.com/83865890/121737262-ed7ca080-caf8-11eb-9a3f-dc7c883aa5a5.png)
+![image](../FinalCircuitSchematic&PCB/3D_Front.jpg)
 
 ### Step 3
 
@@ -37,7 +55,10 @@ If you want to use the output signal that ranges from 0V - 3.3V from the amplifi
 
 If you want to use the output signal that ranges from 0V - 3.3V from the amplification stage for the second soil moisture sensor, connect to connector J6 on the microPiHat PCB.
 
+---
+
 ## LED Module
+***How To Setup The LED Module and connecting components***
 
 ### Required Hardware:
 
@@ -55,13 +76,13 @@ Make sure that the amplification module has been connected properly with both so
 
 Familiarise yourself with the front face of the microPiHat PCB below.
 
-![image](https://user-images.githubusercontent.com/83865890/121737262-ed7ca080-caf8-11eb-9a3f-dc7c883aa5a5.png)
+![image](../FinalCircuitSchematic&PCB/3D_Front.jpg)
 
 ### Step 4
 
 Familiarise yourself with the back face of the microPiHat PCB below.
 
-![image](https://user-images.githubusercontent.com/83865890/121739894-8eb92600-cafc-11eb-9248-69f924bfe7ca.png)
+![image](../FinalCircuitSchematic&PCB/3D_Back.jpg)
 
 ### Step 5
 
