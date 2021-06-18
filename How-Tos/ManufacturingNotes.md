@@ -2,8 +2,7 @@
 
 ### Step 1
 
-Open by the PCB design for the main circuit. The file can be found here:
-https://github.com/ryxcam002/IrrigationPiHat/blob/master/FinalCircuitSchematic%26PCB/Main%20Circuit.kicad_pcb
+Open by the PCB design for the main circuit. The file can be found here: [KiCAD PCB Design File](<Combined Schematic & PCB/Main Circuit.kicad_pcb>)
 
 ### Step 2
 
@@ -29,8 +28,7 @@ In PCB View, go to Files -> Fabrication Outputs -> BOM File
 
 Press 'Save'. This will generate the bill of materials files needed for manufacturing.
 
-Alternativly, the bill of materials file can be found here:
-https://github.com/ryxcam002/IrrigationPiHat/blob/master/FinalCircuitSchematic%26PCB/BillOfMaterials.md 
+Alternativly, the bill of materials file can be found here: [Bill of Materials](<Combined Schematic & PCB/BillOfMaterials.md>)
 
 ### Step 8
 

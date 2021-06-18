@@ -3,13 +3,14 @@
 Read the sections below for common 'How To...' questions when assembling or using the circuit.
 
 ## Power Module
-***How To Setup The Power Module and connecting components***
+
+**_How To Setup The Power Module and connecting components_**
 
 ### Step 1
 
 Familiarise yourself with the front face of the microPiHat PCB below.
 
-![image](../FinalCircuitSchematic&PCB/PCBScreenshots/3D_Front.jpg)
+![image](<../Combined Schematic & PCB/PCBScreenshots/3D_Front.jpg>)
 
 ### Step 2
 
@@ -22,7 +23,8 @@ To troubleshoot your solenoid valves, check if your power supply connected is no
 ---
 
 ## Amplifier Module
-***How To Setup The Amplifier Module and connecting components***
+
+**_How To Setup The Amplifier Module and connecting components_**
 
 ### Required Hardware:
 
@@ -37,7 +39,7 @@ Make sure that the power module has been connected properly.
 
 Familiarise yourself with the front face of the microPiHat PCB below.
 
-![image](../FinalCircuitSchematic&PCB/PCBScreenshots/3D_Front.jpg)
+![image](<../Combined Schematic & PCB/PCBScreenshots/3D_Front.jpg>)
 
 ### Step 3
 
@@ -58,7 +60,8 @@ If you want to use the output signal that ranges from 0V - 3.3V from the amplifi
 ---
 
 ## LED Module
-***How To Setup The LED Module and connecting components***
+
+**_How To Setup The LED Module and connecting components_**
 
 ### Required Hardware:
 
@@ -76,13 +79,13 @@ Make sure that the amplification module has been connected properly with both so
 
 Familiarise yourself with the front face of the microPiHat PCB below.
 
-![image](../FinalCircuitSchematic&PCB/PCBScreenshots/3D_Front.jpg)
+![image](<../Combined Schematic & PCB/PCBScreenshots/3D_Front.jpg>)
 
 ### Step 4
 
 Familiarise yourself with the back face of the microPiHat PCB below.
 
-![image](../FinalCircuitSchematic&PCB/PCBScreenshots/3D_Back.jpg)
+![image](<../Combined Schematic & PCB/PCBScreenshots/3D_Back.jpg>)
 
 ### Step 5
 
@@ -94,7 +97,7 @@ In order to set the treshold voltage for the yellow LED (D2) for the first soil 
 
 ### Step 7
 
-In order to set the treshold voltage for the green LED (D3) for the first soil moisture sensor, please place your first soil moisture sensor in a pot of soil with your required somewhat perfectly moist soil and turn the potentiometer, RV3, until the LED (D3) just lights up. 
+In order to set the treshold voltage for the green LED (D3) for the first soil moisture sensor, please place your first soil moisture sensor in a pot of soil with your required somewhat perfectly moist soil and turn the potentiometer, RV3, until the LED (D3) just lights up.
 
 ### Step 8
 
@@ -114,7 +117,7 @@ In order to set the treshold voltage for the yellow LED (D5) for the second soil
 
 ### Step 12
 
-In order to set the treshold voltage for the green LED (D6) for the second soil moisture sensor, please place your first second moisture sensor in a pot of soil with your required somewhat perfectly moist soil and turn the potentiometer, RV8, until the LED (D6) just lights up. 
+In order to set the treshold voltage for the green LED (D6) for the second soil moisture sensor, please place your first second moisture sensor in a pot of soil with your required somewhat perfectly moist soil and turn the potentiometer, RV8, until the LED (D6) just lights up.
 
 ### Step 13
 
