@@ -3,26 +3,8 @@
 *.drl
 *.rpt
 WeeklyReviews
-Simulations/LED&ValveControlSim/Circuit.png
-Simulations/LED&ValveControlSim/Custom Output.png
-Simulations/LED&ValveControlSim/LED Output.png
-Simulations/PowerSim/High End Protection.jpg
-Simulations/PowerSim/Low End Protection.jpg
-Simulations/PowerSim/Power Circuit Layout.jpg
-Simulations/PowerSim/Simulation Plot.jpg
-Simulations/AmplifierSim/Amplifier - Lower Bound Input.png
-Simulations/AmplifierSim/Amplifier - Lower Bound Output.png
-Simulations/AmplifierSim/Amplifier - Sine Input.png
-Simulations/AmplifierSim/Amplifier - Sine Output.png
-Simulations/AmplifierSim/Amplifier - Upper Bound Input.png
-Simulations/AmplifierSim/Amplifier - Upper Bound Output.png
-Assignment3/DRCOutput.jpg
-Assignment2/Assignment 2 Template.pdf
-Assignment2/Assignment 2.docx
-Assignment1/Assignment 1.docx
-Assignment3/Assignment 3.docx
-Assignment4/Assignment4_Template.pdf
-Assignment4/Assignment 4.docx
+Assignment**
+Schematics**
 FinalCircuitSchematic&PCB/Main Circuit.html
 FinalCircuitSchematic&PCB/Main Circuit.xml
 Assignment4/Requirements&Specifications.docx

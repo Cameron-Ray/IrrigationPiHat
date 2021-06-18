@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name LTC3895PartLib)(type Legacy)(uri ${KIPRJMOD}/LTC3895PartLib.lib)(options "")(descr ""))
-)
